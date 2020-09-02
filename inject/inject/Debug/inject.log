@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\Ray\Desktop\Github\inject\inject\main.c(8,51): warning C4047: 'function': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\Ray\Desktop\Github\inject\inject\main.c(8,47): warning C4024: 'OpenProcess': different types for formal and actual parameter 2
+C:\Users\Ray\Desktop\Github\inject\inject\main.c(63,21): warning C4129: 'm': unrecognized character escape sequence
+  inject.vcxproj -> C:\Users\Ray\Desktop\Github\inject\Debug\inject.exe

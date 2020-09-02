@@ -1,5 +1,0 @@
-﻿  main.c
-C:\Users\82595\source\repos\learing_cheat\dll_inject\dll_inject\main.c(7,51): warning C4047: “函数”:“BOOL”与“void *”的间接级别不同
-C:\Users\82595\source\repos\learing_cheat\dll_inject\dll_inject\main.c(7,47): warning C4024: “OpenProcess”: 形参和实参 2 的类型不同
-C:\Users\82595\source\repos\learing_cheat\dll_inject\dll_inject\main.c(14,57): error C2065: “MEMORY”: 未声明的标识符
-C:\Users\82595\source\repos\learing_cheat\dll_inject\dll_inject\main.c(14,51): warning C4022: “CreateRemoteThread”: 指针与实参 5 不匹配

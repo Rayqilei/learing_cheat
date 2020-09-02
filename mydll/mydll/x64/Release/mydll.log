@@ -1,9 +1,0 @@
-﻿  pch.cpp
-  dllmain.cpp
-    正在创建库 C:\Users\82595\source\repos\learing_cheat\mydll\x64\Release\mydll.lib 和对象 C:\Users\82595\source\repos\learing_cheat\mydll\x64\Release\mydll.exp
-  正在生成代码
-  5 of 5 functions (100.0%) were compiled.
-    3 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  已完成代码的生成
-  mydll.vcxproj -> C:\Users\82595\source\repos\learing_cheat\mydll\x64\Release\mydll.dll

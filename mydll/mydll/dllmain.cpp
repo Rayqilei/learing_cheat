@@ -5,32 +5,33 @@ extern "C" __declspec(dllexport)void fffff();
 
 void fffff()
 {
-    printf("Hello world\n");
+    printf("Call me fffff.\n");
 }
 
 
-
-
-
-BOOL APIENTRY DllMain( HMODULE hModule,         //      调用该模组的模组句柄
-                       DWORD  ul_reason_for_call,//     调用我的原因
-                       LPVOID lpReserved        //      保留位置
-                     )
+BOOL APIENTRY DllMain(HMODULE hModule,         //      调用该模组的模组句柄
+    DWORD  ul_reason_for_call,//     调用我的原因
+    LPVOID lpReserved        //      保留位置
+)
 {
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
         fffff();
         //  当进程接入的时候
+        break;
     case DLL_THREAD_ATTACH:
         //  当线程接入的时候
         fffff();
+        break;
     case DLL_THREAD_DETACH:
         //  当线程分离的时候
+        printf("free my from thread.\n");
+        break;
     case DLL_PROCESS_DETACH:
         //  当进程分离的时候
+        printf("free my from process.\n");
         break;
     }
     return TRUE;
 }
-
